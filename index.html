@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>天気予報</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>天気予報</h1>
+      <form id="form">
+        <select id="city">
+          <option value="016010">北海道 札幌市</option>
+          <option value="020010">青森県 青森市</option>
+          <option value="030010">岩手県 盛岡</option>
+          <option value="050010">秋田県 秋田市</option>
+          <option value="040010">宮城県 仙台市</option>
+          <option value="060010">山形県 山形市</option>
+          <option value="070010">福島県 福島市</option>
+          <option value="130010">東京都 新宿区</option>
+          <option value="140010">神奈川県 横浜市</option>
+          <option value="110010">埼玉県 さいたま市</option>
+          <option value="120010">千葉県 千葉市</option>
+          <option value="080010">茨城県 水戸市</option>
+          <option value="090010">栃木県 宇都宮市</option>
+          <option value="100010">群馬県 前橋市</option>
+          <option value="150010">新潟県 新潟市</option>
+          <option value="200010">長野県 長野市</option>
+          <option value="190010">山梨県 甲府市</option>
+          <option value="230010">愛知県 名古屋市</option>
+          <option value="210010">岐阜県 岐阜市</option>
+          <option value="240010">三重県 津市</option>
+          <option value="220010">静岡県 静岡市</option>
+          <option value="160010">富山県 富山市</option>
+          <option value="170010">石川県 金沢市</option>
+          <option value="180010">福井県 福井市</option>
+          <option value="270000">大阪府 大阪市</option>
+          <option value="280010">兵庫県 神戸市</option>
+          <option value="260010">京都府 京都市</option>
+          <option value="250010">滋賀県 大津市</option>
+          <option value="290010">奈良県 奈良市</option>
+          <option value="300010">和歌山県 和歌山市</option>
+          <option value="340010">広島県 広島市</option>
+          <option value="330010">岡山県 岡山市</option>
+          <option value="310010">鳥取県 鳥取市</option>
+          <option value="320010">島根県 松江市</option>
+          <option value="350020">山口県 山口市</option>
+          <option value="380010">愛媛県 松山市</option>
+          <option value="370000">香川県 高松市</option>
+          <option value="360010">徳島県 徳島市</option>
+          <option value="400010">福岡県 福岡市</option>
+          <option value="410010">佐賀県 佐賀市</option>
+          <option value="420010">長崎県 長崎市</option>
+          <option value="430010">熊本県 熊本市</option>
+          <option value="440010">大分県 大分市</option>
+          <option value="450010">宮崎県 宮崎市</option>
+          <option value="460010">鹿児島県 鹿児島市</option>
+          <option value="471010">沖縄県 那覇市</option>
+        </select>
+        <input type="submit" value="天気を見る" />
+      </form>
+      <div id="weather"></div>
+    </div>
+
+    <script type="module" src="dist/main.js"></script>
+  </body>
+</html>

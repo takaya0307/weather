@@ -1,0 +1,17 @@
+{
+  "name": "site-weather-by-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && serve",
+    "watch": "npx tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.3",
+    "typescript": "^5.4.5"
+  }
+}
